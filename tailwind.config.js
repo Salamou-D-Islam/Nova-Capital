@@ -1,4 +1,5 @@
-tailwind.config = {
+module.exports = {
+  content: ["./src/**/*.html"], // dossier où tu as tes fichiers HTML
   theme: {
     extend: {
       colors: {
@@ -28,7 +29,7 @@ tailwind.config = {
       },
     },
   },
-  plugins: [daisyui],
+  plugins: [require("daisyui")],
   daisyui: {
     themes: [
       {

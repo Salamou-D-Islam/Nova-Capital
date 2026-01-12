@@ -1,3 +1,82 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
 .header-bg {
+  background-color: #a0f1bd;
+}
+
+/* BG Color */
+
+.bg1 {
+  background-color: #a0f1bd;
+}
+.bg2 {
+  background-color: #f9f9f9;
+}
+.bg3 {
+  background-color: #2e4f21;
+}
+.bg4 {
+  background-color: #ffffff;
+}
+.bg5 {
+  background-color: #f4f7f5;
+}
+.bg6 {
+  background-color: #d2f8dc;
+}
+
+/* Accent Colors */
+
+.accents1 {
+  background-color: #d2f8dc;
+}
+.accents2 {
+  background-color: #d7d7d7;
+}
+
+/* Text Colors */
+
+.text-paragraph {
+  color: #2e4f21;
+}
+
+.onaccent1 {
+  color: #ffffff;
+}
+.onaccent2 {
+  color: #506349;
+}
+.onaccent3 {
+  color: #7d9276;
+}
+.onaccent4 {
+  color: #d5e4d0;
+}
+
+/* Divider Colors */
+
+.divider1 {
+  color: #2e4f21;
+}
+.divider2 {
+  color: #c7c7c7;
+}
+
+/* Font Families */
+.font-sans {
+  font-family: "Inter", sans-serif;
+}
+.font-heading {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Button Colors */
+.btn-on-light {
+  background-color: #2e4f21;
+  color: #ffffff;
+}
+
+.btn-on-light:hover {
   background-color: #a0f1bd;
 }
