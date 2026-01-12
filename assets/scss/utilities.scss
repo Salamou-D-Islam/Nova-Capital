@@ -1,0 +1,44 @@
+@import "variables";
+
+.header-nova {
+  background-color: $bg1;
+  padding: 1.5rem 2rem;
+  font-family: $font-heading;
+  @extend .font-heading;
+  height: 101px;
+
+  &:hover {
+    background-color: darken($bg1, 10%);
+  }
+}
+
+.text-paragraph {
+  color: $paragraph;
+  font-family: $font-sans;
+}
+
+.btn-on-light {
+  background-color: $bg4;
+  color: $base-100;
+  font-family: $font-heading;
+
+  &:hover {
+    background-color: $bg1;
+  }
+}
+.btn-on-dark {
+  background-color: $bg3;
+  color: $base-100;
+  font-family: $font-heading;
+
+  &:hover {
+    background-color: $bg1;
+  }
+}
+
+.divider-primary {
+  border-color: $divider1;
+}
+.divider-secondary {
+  border-color: $divider2;
+}
