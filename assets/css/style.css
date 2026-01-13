@@ -233,12 +233,120 @@ body {
   justify-content: center;
   text-align: center;
   border-radius: 8px;
-  background-color: var(--bg4);
 }
-.list-services:hover {
-  background-color: var(--bg1);
-  transition: all 0.2s ease-in-out;
+
+/* .reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
-.list-services:not(:hover) {
-  transition: all 0.2s ease-in-out;
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+/* ----------------------SECTION: CLIENT----------------------------- */
+/*Tout le section*/
+.section-client {
+  padding: 100px 0;
+  color: var(--paragraph);
+  margin-top: 200px;
+  justify-content: center;
+  text-align: center;
+  width: 1400px;
+  margin: auto;
+}
+.section-client h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+/*section content*/
+.section-avis-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 384px;
+  margin: 200px 100px 0 100px;
+}
+
+.section-pers-avis {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: var(--paragraph);
+
+  border-radius: 8px;
+  width: 310px;
+  height: 384px;
+  justify-content: center;
+  text-align: center;
+}
+
+/*card avis*/
+.div-pers {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.div-pers.active {
+  background-color: var(--bg3);
+  color: white;
+}
+
+.pers-avis {
+  display: none;
+}
+
+.div-pers hr {
+  border: 1px solid var(--divider2);
+  width: 250px;
+}
+
+/*hr vertical*/
+.vertical-hr {
+  width: 1px;
+  height: 384;
+  background-color: black;
+  border: none;
+}
+
+/*section de l'avis*/
+.section-avis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 670px;
+  height: 384px;
+
+  margin: auto;
+}
+
+.pers-avis h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 10px;
+  text-align: left;
+  width: 600px;
+}
+
+.div-info-pers {
+  display: flex;
+  width: 600px;
+  height: 48.04px;
+  gap: 30px;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.img-avis {
+  width: 46.05px;
+  height: 48.04px;
+  border-radius: 16%;
 }
