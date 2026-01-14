@@ -16,7 +16,6 @@
 
 .div-hero {
   display: flex;
-
   width: 1500px;
 }
 .hero h1 {
@@ -313,12 +312,12 @@
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-bottom: 200px;
+  margin: 200px 0;
 }
 
 .section-built img {
-  width: 850px;
-  height: 475px;
+  width: 800px;
+  height: 375px;
 }
 
 .div-custom {
@@ -354,15 +353,15 @@
 }
 
 .div-custom a {
-  width: 62px;
-  height: 13px;
+  width: 86px;
+  height: 37px;
 
   padding: 10px;
+
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 110%;
-  list-style: none;
   text-decoration: none;
 
   margin-right: auto;
@@ -404,4 +403,10 @@
 .section-final a:hover {
   background-color: var(--bg1);
   color: var(--paragraph);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
