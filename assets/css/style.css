@@ -359,3 +359,49 @@ body {
   background-size: cover;
   margin: 200px 0;
 }
+
+/*---------------------------SECTION INFO-----------------------------*/
+.section-info {
+  height: 616px;
+  padding: 200px;
+}
+
+.div-info-title {
+  display: flex;
+  margin: -200px 0 200px 0;
+  height: 126px;
+  color: var(--paragraph);
+  justify-content: center;
+  align-items: center;
+}
+
+.div-info-title h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105%;
+  justify-content: center;
+  width: 575px;
+}
+
+.div-info-title p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  width: 575px;
+  height: 54px;
+  margin-bottom: auto;
+}
+.div-plan {
+  display: flex;
+}
+
+.plan {
+  width: 386.67px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
