@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: var(--font-heading);
+}
+
+/*------------------------------HEADER-----------------------*/
+.header {
+  background-color: var(--bg1);
+  margin-top: -1.35rem;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: flex-end;
+
+  align-items: center;
+  padding: 32px 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.div-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+}
+
+/*---------------------------FOOTER-----------------------------*/
+footer {
+  background-color: var(--bg3);
+
+  height: 346px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: flex-end;
+
+  align-items: center;
+  padding: 0 20px;
+
+  color: var(--onaccent4);
+}
+
+.div-head {
+  display: flex;
+  width: 100%;
+  margin: 199px auto;
+}
+
+.div-head h1 {
+  color: var(--onaccent1);
+}
+
+.footer-service {
+  color: var(--onaccent4);
+  text-decoration: none;
+}
+
+.copyright {
+  margin-bottom: 50px;
+}
+
+.div-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+/*---------------------------Button Colors------------------------*/
+.btn-on-light {
+  background-color: var(--bg4);
+  color: var(--paragraph);
+  border-radius: 51.57px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn-on-light:hover {
+  background-color: var(--bg1);
+  color: var(--bg3);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-on-light:not(:hover) {
+  transition: all 0.2s ease-in-out;
+}
+.btn-on-dark {
+  background-color: var(--bg3);
+  color: var(--bg4);
+  border-radius: 51.57px;
+  height: 37px;
+  text-decoration: none;
+}
+
+.btn-on-dark:hover {
+  background-color: var(--bg4);
+  color: var(--bg3);
+  transition: all 0.2s ease-in-out;
+}
+.btn-on-dark:not(:hover) {
+  transition: all 0.2s ease-in-out;
+}
+
+.link-standard {
+  color: var(--paragraph);
+  text-decoration: none;
+}
