@@ -24,10 +24,38 @@
 
 /*----------------------------SECTION STEP-----------------------*/
 .section-step {
-  margin-top: 60px;
+  margin: 60px 0;
   padding: 12px 16px;
 }
 
 .steps {
   padding: 12px 16px;
+}
+
+/*---------------------------SECTION PHILO-------------------------*/
+
+.section-philo {
+  margin-top: 60px;
+  padding: 12px 16px;
+}
+
+.philo-intro {
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.philos {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  text-align: center;
+
+  background-color: var(--accent1);
+  color: var(--paragraph);
+}
+
+.n-philo {
 }
