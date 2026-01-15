@@ -49,7 +49,8 @@ body {
 footer {
   background-color: var(--bg3);
 
-  height: 346px;
+  min-height: 346px;
+  padding-bottom: 1px;
 
   display: flex;
   flex-direction: column;
