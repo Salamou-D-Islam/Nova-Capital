@@ -37,27 +37,22 @@ main {
   .section {
     flex-direction: row;
     padding: 20px 30px;
+    max-width: 100%;
   }
   .section img {
-    margin-top: 60px;
     width: 273px;
     height: 281.42px;
+    margin: auto;
   }
 
   .div-text {
+    margin: auto;
     padding: 14px 20px;
-    margin: 60px 0px 80px 0px;
-
     text-align: left;
-  }
-
-  .div-text h2 {
-    margin: 0px;
   }
 
   .div-text a {
     padding: 20px 0px;
-    margin: 50px 300px 30px 0px;
   }
 }
 
