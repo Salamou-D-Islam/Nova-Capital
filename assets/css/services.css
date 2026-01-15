@@ -17,9 +17,15 @@
 .div-finance a {
   margin-right: auto;
 }
+
 .div-finance a:hover {
   background-color: var(--bg1);
   color: var(--paragraph);
+}
+
+/*----------------------------SECTION IMAGE-----------------------*/
+.img-service {
+  width: 100%;
 }
 
 /*----------------------------SECTION STEP-----------------------*/
@@ -60,11 +66,16 @@
 /*---------------------------SECTION GOODBYE-------------------------*/
 .section-goodbye {
   display: flex;
+  width: 100%;
   flex-direction: column;
   gap: 20px;
   padding: 80px 16px;
   text-align: center;
   background-color: var(--bg5);
+}
+
+.section-goodbye img {
+  padding: 16px 16px;
 }
 
 .div-gb {
@@ -81,4 +92,132 @@
 .div-gb a:hover {
   background-color: var(--bg1);
   color: var(--paragraph);
+}
+
+/*--------------------------------RESPONSIVE-----------------------------------*/
+
+@media (min-width: 800px) {
+  /*SECTION 1*/
+  .section-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+  }
+  .div-finance {
+    padding: 14px 20px;
+  }
+  .section-1 img {
+    height: 254.82px;
+    margin: auto;
+  }
+
+  /*SECTION IMAGE*/
+  .img-service {
+    height: 526px;
+  }
+
+  /*SECTION STEP*/
+  .section-step {
+    padding: 14px 20px;
+  }
+
+  .steps {
+    padding: 14px 20px;
+  }
+
+  /*SECTION GB*/
+  .section-goodbye {
+    flex-direction: row-reverse;
+  }
+
+  .div-gb {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  /*SECTION 1*/
+  .section-1 {
+    padding: 16px 24px;
+    margin: 80px auto;
+  }
+  .div-finance {
+    padding: 16px 24px;
+    align-items: start;
+  }
+
+  .div-finance h1 {
+    margin: 0 0 -20px -20px;
+    padding: 16px 24px;
+  }
+  .section-1 img {
+    height: 445.93px;
+    padding: 16px 24px;
+  }
+
+  /*SECTION IMAGE*/
+  .img-service {
+    height: 600px;
+  }
+
+  /*SECTION STEP*/
+  .section-step {
+    padding: 16px 24px;
+    /* margin-left: 250px; */
+  }
+
+  .steps {
+    width: 100%;
+    display: flex;
+    padding: 16px 24px;
+  }
+
+  .div-step-intro h3 {
+    margin: 0px;
+  }
+  .div-step-content {
+    display: flex;
+    padding: 16px 24px;
+    width: 895px;
+    height: 476.2px;
+    margin-left: 300px;
+  }
+  .steps img {
+    width: 372.2px;
+    height: 372.2px;
+  }
+
+  /*SECTION PHILO*/
+
+  .section-philo {
+    padding: 16px 24px;
+    width: 980px;
+    height: 1018px;
+    margin: auto auto 80px;
+  }
+
+  .philo-intro {
+    padding: 16px 24px;
+  }
+
+  .philos {
+    padding: 16px 16px;
+  }
+
+  /*SECTION GB*/
+
+  .section-goodbye {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .section-goodbye img {
+    width: 600px;
+    height: 600px;
+  }
+
+  .div-gb {
+    margin: auto;
+  }
 }
