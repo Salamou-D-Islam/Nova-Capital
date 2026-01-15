@@ -404,9 +404,3 @@
   background-color: var(--bg1);
   color: var(--paragraph);
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
