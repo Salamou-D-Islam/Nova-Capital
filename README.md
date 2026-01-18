@@ -57,19 +57,7 @@ Présentation des services via des cartes interactives
 
 Menu de navigation responsive
 
-Formulaire de contact (statique)
-
 Design moderne et épuré, couleurs harmonieuses
-
-- Améliorations possibles
-
-Ajouter des animations au scroll pour dynamiser le site
-
-Optimiser les images pour un chargement plus rapide
-
-Ajouter un menu hamburger plus interactif sur mobile
-
-Ajouter une vraie gestion de formulaire avec backend
 
 
 Auteur : Islam Derrouiche
