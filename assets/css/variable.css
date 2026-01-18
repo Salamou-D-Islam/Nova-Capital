@@ -81,6 +81,16 @@
   color: var(--paragraph);
 }
 
+.heading-5 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105%;
+  letter-spacing: -4.5%;
+
+  color: var(--paragraph);
+}
+
 .quote {
   font-size: 18px;
   font-style: normal;
