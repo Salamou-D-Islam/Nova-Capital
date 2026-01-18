@@ -96,7 +96,7 @@ footer {
   background-color: var(--bg4);
   color: var(--paragraph);
   border-radius: 51.57px;
-  padding: 5px;
+  padding: 12px 11px;
   text-decoration: none;
 }
 
@@ -122,6 +122,7 @@ footer {
   color: var(--bg3);
   transition: all 0.2s ease-in-out;
 }
+
 .btn-on-dark:not(:hover) {
   transition: all 0.2s ease-in-out;
 }

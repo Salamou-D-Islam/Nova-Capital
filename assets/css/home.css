@@ -1,0 +1,254 @@
+/*----------------------------SECTION HERO-----------------------*/
+
+.hero {
+  background-color: var(--bg1);
+}
+
+.div-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.terre-png {
+  width: 343px;
+  height: 329px;
+}
+
+.div-text-hero {
+  margin: 40px 0px;
+}
+
+.div-text-hero a {
+  padding: 12px 16px;
+}
+
+/*----------------------------SECTION SERVICES-----------------------*/
+
+.services {
+  padding: 12px 16px;
+
+  justify-content: center;
+  text-align: center;
+  margin: 120px 0px 100px 0;
+}
+
+.div-text-services a {
+  padding: 12px 16px;
+}
+
+.div-text-services a:hover {
+  background-color: var(--bg1);
+}
+
+/* Cards */
+
+.div-service-cards {
+  padding: 14px 7px;
+
+  margin-top: 16px;
+  background-color: var(--accent1);
+}
+
+.div-list {
+  display: flex;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+}
+
+.list-services {
+  display: flex;
+  padding: 14px 7px;
+
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.image-tax {
+  width: 311px;
+  height: 225.7px;
+  margin: auto;
+}
+
+.tax {
+  padding: 12px 16px;
+}
+
+/*----------------------------SECTION CLIENT-----------------------*/
+
+/*Tout le section*/
+.section-client {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+/*section content*/
+.section-avis-content {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+}
+
+.section-pers-avis {
+  display: flex;
+
+  border-radius: 8px;
+}
+
+/*card avis*/
+.div-pers {
+  padding: 12px 16px;
+}
+
+.div-pers h3 {
+  font-weight: bold;
+}
+
+.div-pers.active {
+  background-color: var(--bg3);
+  color: var(--bg4);
+}
+
+.pers-avis {
+  display: none;
+}
+
+.div-pers hr {
+  border: 1px solid var(--divider2);
+}
+
+/*hr vertical*/
+.vertical-hr {
+  /* width: 1px;
+  height: 384;
+  background-color: black;
+  border: none; */
+  display: none;
+}
+
+/*section de l'avis*/
+.section-avis {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+  margin-top: 20px;
+}
+
+.pers-avis h2 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.div-info-pers {
+  display: flex;
+  gap: 30px;
+}
+
+.img-avis {
+  width: 46.05px;
+  height: 48.04px;
+  border-radius: 16%;
+}
+
+/*---------------------------SECTION IMAGE-----------------------------*/
+.section-img {
+  width: 100%;
+  height: 250px;
+  background-image: url(/assets/images/dylan-gillis-KdeqA3aTnBY-unsplash\ 3.png);
+  background-size: cover;
+  margin: 36px 0 80px 0;
+}
+
+/*---------------------------SECTION INFO-----------------------------*/
+.section-info {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+}
+
+.div-info-title {
+  margin-bottom: 80px;
+}
+
+.plan-hr {
+  width: 343px;
+  height: 1px;
+  background-color: black;
+  border: none;
+  margin: 20px 0px;
+}
+
+.div-plan {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*---------------------------SECTION BUILT-----------------------------*/
+.section-built {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 50px;
+  padding: 12px 16px;
+}
+
+.section-built img {
+}
+
+.div-custom {
+  border-radius: 20px;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  color: var(--onaccent1);
+  background-color: var(--bg3);
+}
+
+.div-custom h3 {
+  color: var(--onaccent1);
+}
+
+.div-custom p {
+  color: var(--onaccent1);
+}
+
+.div-custom a {
+  padding: 12px 16px;
+  margin-right: auto;
+}
+
+/*---------------------------SECTION FINAL-----------------------------*/
+
+.section-final {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 24px;
+  margin-top: 50px;
+  background-color: var(--bg2);
+  align-items: center;
+  gap: 20px;
+}
+
+.section-final a {
+  display: flex;
+  padding: 30px 16px;
+  align-items: center;
+}
+
+.section-final a:hover {
+  background-color: var(--bg1);
+  color: var(--paragraph);
+}

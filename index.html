@@ -7,7 +7,7 @@
 
     <link href="/assets/css/variable.css" rel="stylesheet" />
     <link href="/assets/css/component.css" rel="stylesheet" />   
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/home.css" rel="stylesheet" />
     <!-- <link href="/assets/css/responsive.css" rel="stylesheet" /> -->
 
   </head>
@@ -15,35 +15,38 @@
   <body>
     <header class="header">
       <div class="div-logo">
-        <h1 class="font-heading">Nova Capital</h1>
+        <a href="/" class="font-heading">Nova Capital</a>
       </div>
       <div class="div-btn">
         <a href="services.html" class="link-standard">Services</a>
-        <button class="btn-on-dark">Book an appointment</button>
+        <a href="booking.html" class="btn-on-dark book" id="book-header"
+          >Book</a
+        >
       </div>
     </header>
 
     <!---------------------------SECTION HERO-------------------------->
 
-    <section class="hero">
+    <section class="hero container ">
       <div class="div-hero">
-        <div class="div-text-hero">
-          <div class="div-text-hero">
-            <h1>Financial Clarity You Can Trust</h1>
-            <p>
-              Trusted financial guidance for every stage of life and business
-              since 1987
-            </p>
-          </div>
-
-          <button class="btn-on-dark">Connect with our experts</button>
-        </div>
-
         <img
           src="assets\images\tezos-Yu-HIuvap1s-unsplash_3-removebg-preview.png"
           alt="image de la Terre"
           class="terre-png"
         />
+        <div class="div-text-hero">
+          <div class="div-text-hero">
+             <h1 class="heading-1">Financial Clarity You Can Trust</h1>
+            <p class="paragraph">
+              Trusted financial guidance for every stage of life and business
+              since 1987
+            </p>
+          </div>
+
+          <a class="btn-on-dark">Connect with our experts</a>
+        </div>
+
+        
       </div>
     </section>
 
@@ -51,15 +54,15 @@
 
     <section class="services container">
       <div class="div-text-services">
-        <p>Services</p>
-        <h1>
+        <p class="paragraph">Services</p>
+         <h1 class="heading-1">
           Let us handle the numbers,<br />
           so you can handle your success.
         </h1>
-        <p style="margin-bottom: 40px">
+        <p class="paragraph">
           Serving individuals and small businesses since 1987
         </p>
-        <button class="btn-on-dark">Schedule a call</button>
+        <a class="btn-on-dark">Schedule a call</a>
       </div>
     </section>
 
@@ -72,8 +75,8 @@
       />
       <div class="tax">
         <div class="div-text-tax">
-          <h2>Tax Preparation & Filing</h2>
-          <p>
+           <h2 class="heading-2">Tax Preparation & Filing</h2>
+          <p class="paragraph">
             Accurately prepare and file personal and business tax returns to
             maximize deductions and ensure compliance.
           </p>
@@ -95,10 +98,10 @@
         alt="illustration de tax"
         class="image-tax"
       />
-      <div class="tax">
+      <div class="tax container">
         <div class="div-text-tax">
-          <h2>IRS Audit Assistance</h2>
-          <p>
+           <h2 class="heading-2">IRS Audit Assistance</h2>
+          <p class="paragraph">
             Offer expert guidance and representation to resolve tax audits and
             disputes with confidence.
           </p>
@@ -122,8 +125,8 @@
       />
       <div class="tax">
         <div class="div-text-tax">
-          <h2>Bookkeeping & Accounting</h2>
-          <p>
+           <h2 class="heading-2">Bookkeeping & Accounting</h2>
+          <p class="paragraph">
             Maintain organized financial records and provide clear reports to
             support business growth and financial health.
           </p>
@@ -140,34 +143,34 @@
 
     <!------------------------SECTION CLIENT----------------------->
     <section class="section-client container">
-      <h1>Hear From Our Happy Clients</h1>
-      <section class="section-avis-content">
-        <section class="section-pers-avis">
+       <h1 class="heading-1">Hear From Our Happy Clients</h1>
+      <section class="section-avis-content container">
+        <section class="section-pers-avis container">
           <div class="div-pers" data-avis="avis1">
             <hr />
-            <h3>Graphic Designer</h3>
-            <p>Ontario, Canada</p>
+            <h3 class="label-1">Graphic Designer</h3>
+            <p class="label-1">Ontario, Canada</p>
           </div>
 
           <div class="div-pers" data-avis="avis2">
             <hr />
-            <h3>Commercial Photographer</h3>
-            <p>Ontario, Canada</p>
+            <h3 class="label-1">Commercial Photographer</h3>
+            <p class="label-1">Ontario, Canada</p>
           </div>
 
           <div class="div-pers" data-avis="avis3">
             <hr />
-            <h3>Stylist</h3>
-            <p>Austin Texas</p>
+            <h3 class="label-1">Stylist</h3>
+            <p class="label-1">Austin Texas</p>
           </div>
         </section>
         
         <hr class="vertical-hr"></hr>
 
-        <section class="section-avis">
-          <section class="taylor pers-avis" id="avis1">
+        <section class="section-avis container">
+          <section class="taylor pers-avis container" id="avis1">
             <div>
-              <h2>
+               <h2 class="quote">
                 "Managing my taxes as a freelancer used to be overwhelming, but
                 Nova Capital made it effortless.”
               </h2>
@@ -177,14 +180,14 @@
                   src="assets\images\Image.png"
                   alt="image d'un client"
                 />
-                <p>Taylor M., 28 years old</p>
+                <p class="paragraph">Taylor M., 28 years old</p>
               </div>
             </div>
           </section>
 
           <section class="markus pers-avis" id="avis2">
             <div>
-              <h2>
+               <h2 class="quote">
                 "From invoicing to tax prep, Nova Capital has been a
                 game-changer for my freelance business.”
               </h2>
@@ -194,14 +197,14 @@
                   src="assets\images\Image-1.png"
                   alt="image d'un client"
                 />
-                <p>Markus N., 31 years old</p>
+                <p class="paragraph">Markus N., 31 years old</p>
               </div>
             </div>
           </section>
 
           <section class="margaret pers-avis" id="avis3">
             <div>
-              <h2>
+               <h2 class="quote">
                 "I used to worry about missing deductions, but with 
                 Nova Capital, I know I’m maximizing my savings.”
               </h2>
@@ -211,7 +214,7 @@
                   src="assets\images\Image-2.png"
                   alt="image d'un client"
                 />
-                <p>Margaret L., 24 years old</p>
+                <p class="paragraph">Margaret L., 24 years old</p>
               </div>
             </div>
           </section>
@@ -225,42 +228,43 @@
 
     <!-------------------------SECTION INFO------------------------------->
     <section class="section-info container">
-      <div class="div-info-title">
-        <h1>Smart Finance for everyone</h1>
-        <p>At Nova Capital, we believe that financial confidence 
+      <div class="div-info-title ">
+         <h2 class="heading-2">Smart Finance for everyone</h2>
+        <p class="paragraph">At Nova Capital, we believe that financial confidence 
           should be accessible to everyone—whether you’re a solo entrepreneur, 
           managing a growing family, or running a small business.</p>
       </div>
 
-          <hr class="vertical-hr"></hr>
+          <hr class="plan-hr"></hr>
 
       <div class="div-plan">
+        
         <div class="plan">
           <img src="assets\images\icone1.png" alt="Folder icon">
           <h3>For Freelancers</h3>
-          <p>Simplicity & Control</p>
-          <p>Stay in charge of your income with seamless expense tracking, automated deductions, 
+          <p class="paragraph">Simplicity & Control</p>
+          <p class="paragraph">Stay in charge of your income with seamless expense tracking, automated deductions, 
             and smart tax strategies—so you can focus on doing what you love.</p>
         </div>
 
-            <hr class="vertical-hr"></hr>
+            <hr class="plan-hr"></hr>
 
         <div class="plan">
           <img src="assets\images\icone2.png" alt="Person icon">
           <h3>For Families</h3>
-          <p>Stability & Security</p>
-          <p>From budgeting tools to tax-saving insights, 
+          <p class="paragraph">Stability & Security</p>
+          <p class="paragraph">From budgeting tools to tax-saving insights, 
             we help you plan for the future, maximize refunds, 
             and keep your household finances running smoothly.</p>
         </div>
 
-            <hr class="vertical-hr"></hr>
+            <hr class="plan-hr"></hr>
 
         <div class="plan">
           <img src="assets\images\icone3.png" alt="Folder icon">
           <h3>For Small Businesses</h3>
-          <p>Stability & Security</p>
-          <p>Effortless bookkeeping, payroll solutions, 
+          <p class="paragraph">Stability & Security</p>
+          <p class="paragraph">Effortless bookkeeping, payroll solutions, 
             and expert-backed tax support—so you can spend less time on finances and 
             more time scaling your business.</p>
         </div>
@@ -270,43 +274,47 @@
     <!-------------------------SECTION BUILT------------------------------->
 
     <section class="section-built container">
-      <div class="div-custom">
-        <h1>A custom built plan for you</h1>
+      <div class="div-custom container">
+         <h3 class="heading-3">A custom built plan for you</h3>
      
-        <p>At Nova Capital, we believe that tax filing should be seamless, 
+        <p class="paragraph">At Nova Capital, we believe that tax filing should be seamless, 
         accurate, and stress-free. 
         Our approach is centered on three key pillars: 
         simplicity, accuracy, and security.</p>
 
-        <a href="services.html" class="btn-on-light">Learn More</a>
+        <a href="services.html" class="btn-on-light label-1">Learn More</a>
       </div>
         <img src="assets\images\volodymyr-hryshchenko-L0oJ4Dlfyuo-unsplash 2.png" alt="Stacked wood sticks">
     </section>
 
       <!-------------------------SECTION FINAL------------------------------->
     <section class="section-final container">
-      <h1>We believe that tax filing should be seamless, 
-        accurate, and stress-free. Get started with Nova Capital today!</h1> 
+       <h2 class="heading-2">We believe that tax filing should be seamless, 
+        accurate, and stress-free. Get started with Nova Capital today!</h2> 
         <a href="booking.html" class="btn-on-dark">Connect with our experts</a>
     </section>
 
          <!-------------------------FOOTER------------------------------->
 
       <footer>
-        <div class="div-head">      
-            <div class="div-logo">
-              <h1 class="font-heading">Nova Capital</h1>
-            </div>
-            <div class="div-btn">
-              <a href="services.html" class="footer-service">Services</a>
-              <a class="btn-on-light" href="booking.html">Book an appointment</a>
-            </div>
+      <div class="div-head">
+        <div class="div-logo">
+           <h1 class="font-heading">Nova Capital</h1>
         </div>
-        <div class="copyright">
-          Design inspired by a Figma template – training project, non-commercial use
+        <div class="div-btn-footer">
+          <a href="services.html" class="footer-service">Services</a>
+          <a class="btn-on-light book-f" href="booking.html"
+            >Book an appointment</a
+          >
         </div>
-      </footer>
+      </div>
+      <div class="copyright">
+        Design inspired by a Figma template – training project, non-commercial
+        use
+      </div>
+    </footer>
 
+    <script src="/assets/js/book.js"></script>
     <script src="/assets/js/avis.js"></script>
   </body>
 </html>

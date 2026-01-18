@@ -81,6 +81,16 @@
   color: var(--paragraph);
 }
 
+.quote {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -4.5%;
+
+  color: var(--paragraph);
+}
+
 .paragraph {
   font-size: 16px;
   font-style: normal;
@@ -89,6 +99,16 @@
   letter-spacing: -4.5%;
 
   color: var(--paragraph);
+}
+
+.label-1 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -4.5%;
+
+  color: var(--onaccent3);
 }
 
 /* Other */
@@ -129,6 +149,11 @@
   .heading-4 {
     font-size: 26px;
   }
+
+  .quote {
+    font-size: 24px;
+  }
+
   .link {
     padding: 24px 20px;
   }
@@ -158,9 +183,11 @@
     font-size: 40px;
   }
 
-  .heading-4 {
+  .heading-4,
+  .quote {
     font-size: 30px;
   }
+
   .link {
     padding: 26px 24px;
   }
