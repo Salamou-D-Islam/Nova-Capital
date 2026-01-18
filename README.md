@@ -1,6 +1,6 @@
 # Nova Capital
 
-![Site Screenshot](https://nova-capital-salamou.netlify.app/)  
+[Site déployer](https://nova-capital-salamou.netlify.app/)  
 
 **Nova Capital** est un site vitrine moderne développé avec HTML, CSS et un peu de JavaScript. Il présente les services financiers de manière professionnelle et responsive, avec un design moderne et épuré.
 
